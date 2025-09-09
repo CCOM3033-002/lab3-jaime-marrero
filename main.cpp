@@ -25,6 +25,7 @@ int main()
     int numAleatorio2 = rand() % (maxRange - minRange + 1) + minRange;
     int numAleatorio3 = rand() % (maxRange - minRange + 1) + minRange;
 
+    // initialize variables for containing the sorted numbers.
     int sorted1, sorted2, sorted3 = 0;
 
     cout << "Este programa genera 3 números aleatoreos." << endl
